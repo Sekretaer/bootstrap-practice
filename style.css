@@ -5,7 +5,7 @@
 }
 .container{
     align-content: center;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     max-width: 1000px;
     position:relative;
     clear: both;
@@ -54,7 +54,7 @@
 .cart:hover{
     cursor: pointer;
 }
-.col-3{
+.cards{
     border-radius: 10px;
     border: solid 5px red;
     padding: 0;
@@ -76,4 +76,19 @@
     max-width: 1000px;
     display: flex;
     justify-content: space-evenly;
+}
+.footer-logo{
+    margin-right: 5%;
+}
+.footer-title{
+    font-size: 21px;
+    color: red;
+    border-bottom: 1px solid #f00;
+}
+.footer{
+    background-color: aliceblue;
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    position: relative;
 }
