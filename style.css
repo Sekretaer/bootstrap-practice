@@ -125,4 +125,7 @@ body{
     .logo{
         height: 130px;
     }
+    .col-2{
+        margin-left: 10px;
+    }
 }
