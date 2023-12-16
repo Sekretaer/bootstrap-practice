@@ -1,5 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container{
     align-content: center;
     margin-bottom: 30px;
-    width: 100%
+    max-width: 1000px;
+    position:relative;
+    clear: both;
+    background-color: red;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    position: sticky;
+    padding: 0
+}
+.navbar-left{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+.logo{
+    max-height: 150px;
+}
+.navbar-texts{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.navbar-texts:hover{
+    cursor: pointer;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+    transition: 0.2s;
+}
+.navbar-right{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
+}
+.cart{
+    max-height: 75px;
+    margin-right: 20px;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.col-3{
+    border-radius: 10px;
+    border: solid 5px red;
+    padding: 0;
+    background-image: url(/img/iiycivkp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.button{
+    height: 30px;
+    border-radius: 10px;
+    color:black
+}
+.row{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
 }
